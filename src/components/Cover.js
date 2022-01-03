@@ -9,7 +9,7 @@ export const CoverBG = styled.div`
     width: 100%;
     height: 52vh;
     align-content: center;
-    z-index: -1;
+    z-index: 1;
     background-image: url(${backgorund});
     background-size: 100%;
     background-repeat: no-repeat;
@@ -45,7 +45,8 @@ export const Button = styled.button`
     border-radius: 0.5em;
     background: #fff;
     padding: 1em 0.5em;
-    width: 12em;
+    width: 15em;
+    font-size: 1.25em;
     font-weight: 600;
     color: #0265B4;
     outline: none;
@@ -77,7 +78,6 @@ const Cover = () => {
                 <FiArrowRight />
             </Button>
           </TextContainer>
-          
       </CoverBG>
     );
   };

@@ -13,7 +13,7 @@ export const Nav = styled.nav`
   font-size: 14px;
   justify-content: space-between;
   padding: 0.2em 1em;
-  z-index: -3;
+  z-index: 12;
   color: #1C1D20;
   position: relative;
 `;
