@@ -7,6 +7,7 @@ import CardBanners from '../components/CardBanners';
 import CourseCards from '../components/CourseCards';
 import AllCourses from '../components/AllCourses';
 import WhySection from '../components/WhySection';
+import CategoryCards from '../components/CategoryCards';
 
 
 const Home = () => {
@@ -55,6 +56,7 @@ const Home = () => {
         {CoursesCardsList}
         <WhySection/>
         {AllCoursesCardsList}
+        <CategoryCards/>
       </>
   );
 };
