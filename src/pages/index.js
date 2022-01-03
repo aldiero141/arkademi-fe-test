@@ -6,6 +6,7 @@ import JPGBanners from '../components/JPGBanners';
 import CardBanners from '../components/CardBanners';
 import CourseCards from '../components/CourseCards';
 import AllCourses from '../components/AllCourses';
+import WhySection from '../components/WhySection';
 
 
 const Home = () => {
@@ -52,6 +53,7 @@ const Home = () => {
         <LogoStack/>
         <CardBanners/>
         {CoursesCardsList}
+        <WhySection/>
         {AllCoursesCardsList}
       </>
   );
