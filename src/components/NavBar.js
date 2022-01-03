@@ -2,8 +2,8 @@ import React from 'react';
 import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 import SearchBar from './SearchBar';
-import logo from '../asset/arkademi-icon.svg';
-import keranjang from '../asset/shopping-basket.svg';
+import logo from '../assets/arkademi-icon.svg';
+import keranjang from '../assets/shopping-basket.svg';
 
 
 export const Nav = styled.nav`
@@ -15,10 +15,7 @@ export const Nav = styled.nav`
   padding: 0.2em 1em;
   z-index: -3;
   color: #1C1D20;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
+  position: relative;
 `;
   
 export const NavLink = styled(Link)`

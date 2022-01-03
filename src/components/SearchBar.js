@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import searchIcon from '../asset/loupe.svg';
+import searchIcon from '../assets/loupe.svg';
 
 
 export const Search = styled.input`

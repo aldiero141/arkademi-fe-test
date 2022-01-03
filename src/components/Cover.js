@@ -1,16 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
-import backgorund from '../asset/cover-bg.png';
+import backgorund from '../assets/cover-bg.png';
 import { FiArrowRight } from "react-icons/fi";
 
 
 export const CoverBG = styled.div`
-    display
     position: relative;
     width: 100%;
-    height: 55vh;
+    height: 52vh;
     align-content: center;
-    margin-top: 3.75em;
     z-index: -1;
     background-image: url(${backgorund});
     background-size: 100%;
@@ -24,7 +22,6 @@ export const TextContainer = styled.div`
     justify-content: center;
     flex-direction: column;
     height: 100%;
-    width: 100%;
     padding:0 8em;   
 `;
 
@@ -61,7 +58,6 @@ export const Button = styled.button`
         background: #fff;
         color: #0872C7;
     }
-    
 `;
 
 const Cover = () => {
