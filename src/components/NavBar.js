@@ -2,7 +2,6 @@ import React from 'react';
 import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 import SearchBar from './SearchBar';
-import logo from '../assets/arkademi-icon.svg';
 import keranjang from '../assets/shopping-basket.svg';
 
 
@@ -98,7 +97,7 @@ const Navbar = () => {
       <Nav>
         <NavMenu>
           <NavLink to='/' activeStyle>
-            <img alt="logo" src={logo} height="30em"/>
+            <img alt="logo" src='/image/arkademi-icon.svg' height="30em"/>
           </NavLink>
           <SearchBar/>
         </NavMenu>

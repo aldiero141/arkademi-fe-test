@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import backgorund from '../assets/cover-bg.png';
+import background from '../assets/cover-bg.png';
 import { FiArrowRight } from "react-icons/fi";
 
 
@@ -10,7 +10,7 @@ export const CoverBG = styled.div`
     height: 52vh;
     align-content: center;
     z-index: 1;
-    background-image: url(${backgorund});
+    background-image: url(${background});
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-x: right;

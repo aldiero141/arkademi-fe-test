@@ -2,7 +2,7 @@ import React from 'react';
 import Testimony from './Testimony';
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
+const Wrapper = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -11,7 +11,7 @@ export const Wrapper = styled.div`
     margin: 5em 0em;
     padding: 0 4em;
 `;
-export const Line = styled.hr`
+const Line = styled.hr`
     display: flex;
     height: 1px;
     width: 80%;

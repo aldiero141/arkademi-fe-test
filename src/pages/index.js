@@ -12,6 +12,7 @@ import ApplyNow from '../components/ApplyNow';
 import Medias from '../components/Medias';
 import Testimonies from '../components/Testimonies';
 import ApplyLecturer from '../components/ApplyLecturer';
+import Footer from '../components/Footer';
 
 
 const Home = () => {
@@ -65,6 +66,7 @@ const Home = () => {
         <Medias/>
         <Testimonies/>
         <ApplyLecturer/>
+        <Footer/>
       </>
   );
 };
