@@ -3,7 +3,7 @@ import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 import SearchBar from './SearchBar';
 import keranjang from '../assets/shopping-basket.svg';
-
+import Course from '../pages/course';
 
 export const Nav = styled.nav`
   background: #FFF;
@@ -103,7 +103,7 @@ const Navbar = () => {
         </NavMenu>
         
         <NavMenu>
-          <NavLink to='/kategori' activeStyle>
+          <NavLink to='/course' activeStyle>
             Kategori
           </NavLink>
           <NavLink to='/mitra' activeStyle>

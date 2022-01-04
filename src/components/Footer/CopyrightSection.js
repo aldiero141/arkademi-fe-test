@@ -15,7 +15,6 @@ const Wrapper = styled.div`
 const Row = styled.div`
     display: flex;
     flex-direction: row;
-    
     gap: 1em;
     p{
         font-size: 0.875em;
@@ -28,6 +27,7 @@ const Row = styled.div`
         font-weight: 600;
         color: #FFF;
         margin-top: 1em;
+        cursor: pointer;
     }
 `;
 
