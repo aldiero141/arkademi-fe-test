@@ -108,7 +108,7 @@ export const Button = styled.button`
     font-weight: 600;
     color: #FFFFFF;
     outline: none;
-    border: none;
+    border: 1px solid transparent;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;

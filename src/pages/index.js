@@ -8,6 +8,10 @@ import CourseCards from '../components/CourseCards';
 import AllCourses from '../components/AllCourses';
 import WhySection from '../components/WhySection';
 import CategoryCards from '../components/CategoryCards';
+import ApplyNow from '../components/ApplyNow';
+import Medias from '../components/Medias';
+import Testimonies from '../components/Testimonies';
+import ApplyLecturer from '../components/ApplyLecturer';
 
 
 const Home = () => {
@@ -57,6 +61,10 @@ const Home = () => {
         <WhySection/>
         {AllCoursesCardsList}
         <CategoryCards/>
+        <ApplyNow/>
+        <Medias/>
+        <Testimonies/>
+        <ApplyLecturer/>
       </>
   );
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import JPGBanner from '../components/JPGBanner';
+import JPGBanner from './JPGBanner';
 
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import CourseCard from './CourseCard';
+import CourseCard from './CourseCards/CourseCard';
 import { NavLink as Link } from 'react-router-dom';
 
 export const Wrapper = styled.div`
