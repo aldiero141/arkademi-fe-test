@@ -3,7 +3,6 @@ import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 import SearchBar from './SearchBar';
 import keranjang from '../assets/shopping-basket.svg';
-import Course from '../pages/course';
 
 export const Nav = styled.nav`
   background: #FFF;
@@ -41,7 +40,6 @@ export const NavMenu = styled.div`
 export const Line = styled.div`
   border-left: 1px solid #ccc;
   height: 1.625em;
-  
   left: 50%;
   margin: 0 1em;
   top: 0;
