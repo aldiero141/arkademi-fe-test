@@ -101,7 +101,7 @@ const Navbar = () => {
         </NavMenu>
         
         <NavMenu>
-          <NavLink to='/course' activeStyle>
+          <NavLink to='/kategori' activeStyle>
             Kategori
           </NavLink>
           <NavLink to='/mitra' activeStyle>

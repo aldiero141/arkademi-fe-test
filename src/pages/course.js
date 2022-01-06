@@ -13,11 +13,15 @@ export const Body = styled.div`
 `;
 
 const Course = () => {
+  // React.useEffect(() => {
+  //   window.scrollTo(0, 0)
+  // }, [])
+  
   return (
     <>
       <Body>
         <CourseBody/>
-        <CourseSidebar/>
+        <CourseSidebar/>  
       </Body>
       <Footer/>
     </>

@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Accordion from '../Accordion';
+import CourseRatings from  '../CourseRatings'
 
 const Wrapper = styled.div`
     display: flex;
@@ -27,6 +28,9 @@ const CourseContents = styled.div`
     h2{
         font-size: 1.375em;
     }
+    span{
+        color: #ccc;
+    }
 `;
 const Category = styled.div`
     display: flex;
@@ -50,7 +54,6 @@ const CategoryList = styled.div`
 
 
 const CategoryCards = () => {
-    
   return (
     <Wrapper>
         <img src='image/video-example.svg' alt='video' width='105%'/>
@@ -123,6 +126,10 @@ const CategoryCards = () => {
         <CourseContents>
             <h2>Kurikulum Kelas</h2>
             <Accordion/>
+        </CourseContents>
+        <CourseContents>
+            <h2>Ulasan Kelas <span>(8313 Penilaian)</span></h2>
+            <CourseRatings/>
         </CourseContents>
     </Wrapper>
   );

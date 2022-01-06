@@ -16,6 +16,10 @@ import Footer from '../components/Footer';
 
 
 const Home = () => {
+  // React.useEffect(() => {
+  //   window.scrollTo(0, 0)
+  // }, [])
+
   const Contents = [
     {
         "title": "Sedang Diskon", 

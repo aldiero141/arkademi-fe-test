@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import { NavLink as Link } from 'react-router-dom';
 
 const Wrapper = styled.div`
     display: flex;
@@ -96,7 +96,7 @@ const Price = styled.p`
     margin-bottom: 0.5em;
 `;
 
-export const Button = styled.button`
+export const Button = styled(Link)`
     display: flex;
     align-items: center;
     border-radius: 0.5em;
@@ -144,7 +144,6 @@ const CourseCard = (course) => {
             <Info>Prakerja</Info>
         </Card>
         <Container>
-
             <Title>{course.course.title}</Title>
             <Stats>
                 <img alt="logo" src="/image/Star.png" height="12em"/> 
@@ -161,7 +160,7 @@ const CourseCard = (course) => {
                 <Saves>Hemat {course.course.save}</Saves>
             </InitPrice>
             <Price>{course.course.price}</Price>
-            <Button>Ambil Kelas</Button>
+            <Button to='/course'>Ambil Kelas</Button>
         </Container>
     </Wrapper>
     
