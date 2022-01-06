@@ -6,6 +6,10 @@ const Wrapper = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color:#efefef;
+    padding: 5em;
+    width: 100%;
+    margin-top: -5em;
 `;
 
 const Grid = styled.div`
@@ -54,15 +58,6 @@ const MobileApp = styled.img`
     cursor: pointer;
     width: 8em;
     margin-bottom: 1em;
-`;
-
-const Line = styled.hr`
-    display: flex;
-    height: 1px;
-    width: 100%;
-    border: 0;
-    border-top: 1px solid #ccc;
-    padding: 0;
 `;
 
 const Menu = () => {
@@ -146,7 +141,6 @@ const Menu = () => {
                     </Content>
                 </Row>
             </Grid>
-            <Line/>
         </Wrapper>
     );
 };

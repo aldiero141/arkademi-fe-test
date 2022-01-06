@@ -16,7 +16,14 @@ function App() {
       <Navbar />
       <Routes >
         <Route path="/" element={<Home/>} />
-        <Route path='/course' element={<Course/>} />  
+        <Route path='/course' element={<Course/>} />
+        <Route path="/kategori" element={<div>kategori</div>} />
+        <Route path='/mitra' element={<div>mitra</div>} />  
+        <Route path="/tentang" element={<div>tentang</div>} />
+        <Route path='/blog' element={<div>blog</div>} />  
+        <Route path='/keranjang' element={<div>keranjang</div>} />  
+        <Route path='/masuk' element={<div>masuk</div>} />  
+        <Route path="/daftar" element={<div>daftar</div>} />
       </Routes>
     </Router>
   );
