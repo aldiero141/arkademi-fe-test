@@ -6,12 +6,15 @@ import CourseBody from '../components/CourseBody';
 
 export const Body = styled.div`
     display: grid;
-    grid-template-columns: auto 30em;
+    margin-top: 3em;
+    grid-template-columns: 50em 30em;
+    align-items: flex-start;
+    justify-content: center;
 `;
+
 const Course = () => {
   return (
     <>
-
       <Body>
         <CourseBody/>
         <CourseSidebar/>
